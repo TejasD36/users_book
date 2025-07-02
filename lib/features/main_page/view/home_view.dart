@@ -86,7 +86,7 @@ class _HomeViewState extends State<HomeView> {
                       crossAxisCount: 2,
                       mainAxisSpacing: 8,
                       crossAxisSpacing: 8,
-                      childAspectRatio: 1.1,
+                      childAspectRatio: 0.9,
                     ),
                     itemCount: filteredUsers.length,
                     itemBuilder: (context, index) {
